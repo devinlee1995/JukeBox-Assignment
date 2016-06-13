@@ -1,0 +1,78 @@
+#mainBody {
+  width: 100%;
+  height: 300px;
+  margin: 0px auto 0px auto;
+  position: absolute;
+}
+
+#juke {
+  margin: 0px auto 0px auto;
+}
+
+#images {
+  margin-left: 39%;
+  position: absolute;
+  
+}
+
+.modal-wrapper{
+  position: fixed;
+  top:0;
+  left:0;
+
+  background-color: rgba(155,155,155,0.6);
+
+  width:100%;
+  height:100%;
+  padding: 0;
+  margin: 0;
+
+  display: none;
+}
+
+.modal{
+  position: relative;
+  top: 50%;
+  width: 500px;
+
+  padding: 30px;
+  margin: 0 auto;
+
+  background-color: white;
+
+  border-radius: 10px;
+}
+
+.modal-on{
+
+}
+
+.exit{
+  float: right;
+}
+
+#song_playing {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+}
+
+a {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>Juke</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<link rel = "stylesheet" href = "CSS/style.css">
+	
+</head>
+<body>
+		
+		<audio id="myAudio"></audio>
+		<div id = "mainBody">
+			<div id = "juke">
+				<h1 id = "song_playing"> Juke Box</h1>
+				<div id = "images">
+					<img id = "Play" src="images/play.png" alt="Play Button" width="57" height="57">
+					<img id = "Pause" src="images/pause.png" alt="Pause Button" width="57" height="57">
+					<img id = "Stop" src="images/stop.png" alt="Stop Button" width="57" height="57">
+
+					<a href="#" class="activate-modal">
+					<img id = "Add" class = "add" src="images/add.png" alt="Stop Button" width="57" height="57">
+					</a>
+				</div>
+		</div>
+		</div>
+
+	<div class="modal-wrapper">
+  	<div class="modal">
+    	<a href="#" class="exit">X</a>
+    	<h3>What song would you like to add?</h3>
+    	<input type="text" name="song_name" id = "song_name">
+    	<a href="#" class="add">Add</a>
+  	</div>
+	</div>
+
+	
+	<script src="script.js"></script>
+</body>
+</html>
