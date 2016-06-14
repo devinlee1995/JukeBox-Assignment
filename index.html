@@ -8,33 +8,27 @@
 	
 </head>
 <body>
-		
-		<audio id="myAudio"></audio>
+		<!-- The audio source for the page -->
+		<audio id="myAudio"></audio> 
 		<div id = "mainBody">
 			<div id = "juke">
-				<h1 id = "song_playing"> Juke Box</h1>
+				<div id = "Display_Song_Playing">
+					<h1 id = "song_playing"> Juke Box</h1>
+					<h2 id = "status"> Status</h2>
+					<!-- The songs listed on the page-->
+					<li><a id = "Eat" href="#">Eat</a></li>
+					<li><a id = "Just" href="#">Just</a></li>
+					<li><a id = "Sponsor" href="#">Sponsor</a></li>
+					<li><a id = "What2Do" href="#">What2Do</a></li>
+				</div>
+				<!-- The container for the button images-->
 				<div id = "images">
 					<img id = "Play" src="images/play.png" alt="Play Button" width="57" height="57">
 					<img id = "Pause" src="images/pause.png" alt="Pause Button" width="57" height="57">
 					<img id = "Stop" src="images/stop.png" alt="Stop Button" width="57" height="57">
-
-					<a href="#" class="activate-modal">
-					<img id = "Add" class = "add" src="images/add.png" alt="Stop Button" width="57" height="57">
-					</a>
 				</div>
+			</div>
 		</div>
-		</div>
-
-	<div class="modal-wrapper">
-  	<div class="modal">
-    	<a href="#" class="exit">X</a>
-    	<h3>What song would you like to add?</h3>
-    	<input type="text" name="song_name" id = "song_name">
-    	<a href="#" class="add">Add</a>
-  	</div>
-	</div>
-
-	
 	<script src="script.js"></script>
 </body>
 </html>
